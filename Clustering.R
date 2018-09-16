@@ -122,6 +122,7 @@ library(ggplot2)
 install.packages("tibble")
 install.packages("e1071")
 library(e1071)
+#dependency listed
 #defining how many folds we want
 nFolds = trainControl(method="cv",number=10)
 utils:::menuInstallPkgs()
